@@ -1,0 +1,27 @@
+4cores
+Dotted two 8192x8192 matrices in 38.26 s.
+Dotted two vectors of length 100000000 in 0.12 s.
+SVD of a 8192x4096 matrix in 41.79 s.
+Cholesky decomposition of a 8192x8192 matrix in 5.30 s.
+Eigendecomposition of a 4096x4096 matrix in 39.33 s.
+
+3cores
+Dotted two 8192x8192 matrices in 45.29 s.
+Dotted two vectors of length 100000000 in 0.14 s.
+SVD of a 8192x4096 matrix in 59.60 s.
+Cholesky decomposition of a 8192x8192 matrix in 6.72 s.
+Eigendecomposition of a 4096x4096 matrix in 53.60 s.
+
+2cores
+Dotted two 8192x8192 matrices in 53.37 s.
+Dotted two vectors of length 100000000 in 0.19 s.
+SVD of a 8192x4096 matrix in 88.51 s.
+Cholesky decomposition of a 8192x8192 matrix in 8.93 s.
+Eigendecomposition of a 4096x4096 matrix in 82.88 s.
+
+1cores
+Dotted two 8192x8192 matrices in 90.28 s.
+Dotted two vectors of length 100000000 in 0.33 s.
+SVD of a 8192x4096 matrix in 204.13 s.
+Cholesky decomposition of a 8192x8192 matrix in 15.13 s.
+Eigendecomposition of a 4096x4096 matrix in 166.76 s.
