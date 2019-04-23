@@ -6,6 +6,6 @@ To build container:
 1. cd to Dockerfile directory
 2. docker build --name numpy-atlas .
 
-To run container (interactive mode):
-docker run -it numpy-atlas # without volume
-docker run -it -v $(pwd):/home/volume numpy-atlas # with volume mounted
+To run container (interactive mode) pick one:
+1. docker run -it numpy-atlas # without volume
+2. docker run -it -v $(pwd):/home/volume numpy-atlas # with volume mounted
