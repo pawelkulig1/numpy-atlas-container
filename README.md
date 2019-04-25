@@ -4,7 +4,7 @@ This repository contains Dockerfile for numpy with atlas backend configuration. 
 
 To build container:
 1. cd to Dockerfile directory
-2. docker build --name numpy-atlas .
+2. docker build --tag numpy-atlas .
 
 To run container (interactive mode) pick one:
 1. docker run -it numpy-atlas # without volume
